@@ -7,11 +7,11 @@ import { Header, Navbar, Footer, Sidebar, ThemeSettings } from "./components";
 import { Ecommerce, Orders, Editor } from "./pages";
 import { Stacked, Area, Bar, Pie, Financial, Pyramid, Line } from "./pages";
 import { Calender, Employees, Customers, ColorPicker, Kanban } from "./pages";
-
+import { useStateContext } from "./context/ContextProvider";
 import "./app.css";
 
 function App() {
-  const [isActiveMenu, setisActiveMenu] = useState(true);
+  const { isActiveMenu, setisActiveMenu } = useStateContext();
   return (
     <div>
       <BrowserRouter>
