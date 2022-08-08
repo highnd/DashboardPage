@@ -44,31 +44,31 @@ function App() {
             <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full">
               <Navbar />
             </div>
-          </article>
 
-          <Routes>
-            {/* Dashboard */}
-            <Route path="/" element={"<Home>"} />
-            <Route path="/ecommerce" element={<Ecommerce />} />
-            {/* Pages */}
-            <Route path="/orders" element={<Orders />} />
-            <Route path="/employees" element={<Employees />} />
-            <Route path="/customers" element={<Customers />} />
-            {/* Apps */}
-            <Route path="/kanban" element={<Kanban />} />
-            <Route path="/editor" element={<Editor />} />
-            <Route path="/calender" element={<Calender />} />
-            <Route path="/color-picker" element={<ColorPicker />} />
-            {/* Charts */}
-            <Route path="/chart-line" element={"line"} />
-            <Route path="/chart-area" element={"area"} />
-            <Route path="/chart-bar" element={"bar"} />
-            <Route path="/chart-pie" element={"pie"} />
-            <Route path="/chart-financial" element={"financial"} />
-            <Route path="/color-maping" element={"maping"} />
-            <Route path="/chart-pyramid" element={"pyramid"} />
-            <Route path="/chart-stacked" element={"color-stacked"} />
-          </Routes>
+            <Routes>
+              {/* Dashboard */}
+              <Route path="/" element={"<Home>"} />
+              <Route path="/ecommerce" element={<Ecommerce />} />
+              {/* Pages */}
+              <Route path="/orders" element={<Orders />} />
+              <Route path="/employees" element={<Employees />} />
+              <Route path="/customers" element={<Customers />} />
+              {/* Apps */}
+              <Route path="/kanban" element={<Kanban />} />
+              <Route path="/editor" element={<Editor />} />
+              <Route path="/calender" element={<Calender />} />
+              <Route path="/color-picker" element={<ColorPicker />} />
+              {/* Charts */}
+              <Route path="/chart-line" element={"line"} />
+              <Route path="/chart-area" element={"area"} />
+              <Route path="/chart-bar" element={"bar"} />
+              <Route path="/chart-pie" element={"pie"} />
+              <Route path="/chart-financial" element={"financial"} />
+              <Route path="/color-maping" element={"maping"} />
+              <Route path="/chart-pyramid" element={"pyramid"} />
+              <Route path="/chart-stacked" element={"color-stacked"} />
+            </Routes>
+          </article>
         </div>
       </BrowserRouter>
     </div>

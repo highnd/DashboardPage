@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@syncfusion/ej2-react-charts": "^20.2.40",
     "@syncfusion/ej2-react-popups": "^20.2.39",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
